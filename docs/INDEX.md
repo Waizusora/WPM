@@ -2,6 +2,9 @@
 
 This directory documents the Wicofe package manager, package formats, repository metadata, and package transactions.
 
+## Whole-system product direction
+- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned `wpm sync` / `wpm upgrade` user workflow and WPM/Wicofe-Update ownership boundary; command semantics are not finalized.
+
 ## Scope
 - Package manifest/archive format and versioning.
 - Repository metadata, package discovery, and signatures.
