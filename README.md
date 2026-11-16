@@ -11,6 +11,10 @@ WPM is the planned native package manager for installing, updating, querying, an
 - Transactional installation, upgrade, removal, and rollback behavior.
 - Package ownership database and filesystem integration.
 
+## Planned Terminal command direction
+
+The proposed user-facing examples are `wpm sync` (refresh trusted metadata and discover updates) and `wpm upgrade` (apply eligible updates). These commands are not implemented or finalized. WPM owns package operations; if the commands also expose whole-system updates, they must delegate release staging/activation to Wicofe-Update rather than taking over its responsibility. See the [system delivery and installation direction](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md).
+
 ## Security requirements
 
 Package metadata and archives are untrusted input. Define path traversal protections, archive limits, hash verification, signature trust roots, downgrade policy, and atomic transaction behavior before enabling system-wide installation.
