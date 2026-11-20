@@ -3,7 +3,7 @@
 This directory documents the Wicofe package manager, package formats, repository metadata, and package transactions.
 
 ## Whole-system product direction
-- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned `wpm sync` / `wpm upgrade` user workflow and WPM/Wicofe-Update ownership boundary; command semantics are not finalized.
+- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Doc/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned `wpm sync` / `wpm upgrade` user workflow and WPM/Wicofe-Update ownership boundary; command semantics are not finalized.
 
 ## Scope
 - Package manifest/archive format and versioning.
@@ -18,5 +18,5 @@ WPM owns individual package operations. [Wicofe-Update](https://github.com/Waizu
 ## Security
 Package archives and metadata are untrusted. Specify path traversal protection, archive limits, hashes, signature trust roots, downgrade/replay protection, and transactional rollback before system-wide use.
 
-- [Central Wicofe documentation index](https://github.com/Waizusora/Wicofe-Docs/blob/main/INDEX.md)
-- [Repository documentation map](https://github.com/Waizusora/Wicofe-Docs/blob/main/REPOSITORY_DOCUMENTATION_MAP.md)
+- [Central Wicofe documentation index](https://github.com/Waizusora/Wicofe-Doc/blob/main/INDEX.md)
+- [Repository documentation map](https://github.com/Waizusora/Wicofe-Doc/blob/main/REPOSITORY_DOCUMENTATION_MAP.md)
